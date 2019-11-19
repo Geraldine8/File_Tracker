@@ -1,13 +1,13 @@
-package com.codeclan.example.trackservice;
+package com.codeclan.example.files_and_folders;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TrackserviceApplication {
+public class FilesAndFolderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TrackserviceApplication.class, args);
+		SpringApplication.run(FilesAndFolderApplication.class, args);
 	}
 
 }
