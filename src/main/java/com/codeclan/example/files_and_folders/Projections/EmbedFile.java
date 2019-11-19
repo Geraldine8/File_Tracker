@@ -7,7 +7,7 @@ import org.springframework.data.rest.core.config.Projection;
 @Projection(name="embedFile", types = File.class)
 public interface EmbedFile {
 
-    Long id();
+    Long getId();
     String getname();
     String getExtension();
     int getSize();

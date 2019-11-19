@@ -9,7 +9,7 @@ import java.util.List;
 @Projection(name="embedUser", types = User.class)
 public interface EmbedUser {
 
-    Long id();
-    String name();
+    Long getId();
+    String getName();
     List<Folder> getFolders();
 }
